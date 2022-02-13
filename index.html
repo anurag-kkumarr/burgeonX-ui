@@ -4,28 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  />
     <link rel="stylesheet" href="/main.css">
     <title>Atlas-ui</title>
 </head>
 <body class="container">
-    <nav class="top-nav">
-        <button class="button_small">Github</button>
-    </nav>
-    <header>
-        <h1 class="top-head">Bloom-ui</h1>
-    </header>
+    <div class="navigation">
+        <header>
+            <h1 class="head-top">BurgeonX-ui</h1>
+        </header>
+        <nav class="nav-top flex-row-reverse">
+            <button class="button_small">Github</button>
+        </nav>
+    </div>
     
-    <main class="main_container">
-        <h2 class="container_subtext">A neat and light class UI Library where you can easily copy codes to get site done in 2 mins...</h2>
-        <div class="container_image"></div>
-        <button class="button_large">Get Started</button>    
+    <main class="main_container flex-column">
+        <div class="flex pad-rem-half">
+            <h2 class="container_subtext">A neat, light & scalable UI-component Library where you can easily copy codes to get your web-app done..</h2>
+            <img class="img-logo" src="/assets/BurgeonX-logos.jpeg" alt="ui-logo">
+        </div>
+        
+        <div class="center">
+        <button class="button_large">Get Started</button>
+    </div>    
     </main>
-    <footer class="footer_nav">
-        <div class="footer_text"> <span>Developed by </span> <strong>Anurag with ❤️</strong></div>
-        <ul class="footer-links">
-            <li class="no-border">facebook</li>
-            <li class="no-border">twitter</li>
-            <li class="no-border">linkedin</li>
+    <footer class="footer_nav flex-column">
+        <div class="footer_text"> <span>Developed by </span> <strong>Anurag with 💙</strong></div>
+        <ul class="footer-links flex">
+            <li class="no-border"><a href="https://github.com/anurag-kkumarr"><i class="fab fa-github fa-2x icon-color"></i></a></li>
+            <li class="no-border"><a href="https://twitter.com/anuragcode" target="_blank"><i class = "fab fa-twitter fa-2x icon-color"></i></a></li>
+            <li class="no-border"><a href="https://www.linkedin.com/in/anuragkkumarr/" target="_blank"><i class="fab fa-linkedin-in fa-2x icon-color"></i></a></li>
         </ul>
     </footer>
 </body>
