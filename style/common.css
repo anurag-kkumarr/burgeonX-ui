@@ -35,6 +35,15 @@
 .margin-bottom-six {
     margin-bottom: var(--size-six);
 }
+.margin-right-one {
+    margin-right: var(--size-one);
+}
+.margin-right-two {
+    margin-right: var(--size-two);
+}
+.margin-right-three {
+    margin-right: var(--size-three);
+}
 .color-white {
     color: var(--white);
 }
@@ -60,3 +69,11 @@
     background-color: var(--white);
     color: var(--color-primary);
 }
+.flex-gap-one {
+    display: flex;
+    gap: var(--size-one);
+} 
+.flex-gap-two {
+    display: flex;
+    gap: var(--size-two);
+} 

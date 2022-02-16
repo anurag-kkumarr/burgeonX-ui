@@ -1,0 +1,46 @@
+@import "/style/import.css";
+
+.cta-btn {
+    border: 1px solid black;
+    padding: var(--size-one);
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: var(--white);
+    cursor: pointer;
+}
+.col-primary {
+    background-color: var(--color-primary);
+    
+}
+.col-primary1 {
+    background-color: var(--darkorange);
+}
+.basic-btn {
+    border: 1px solid black;
+    width: 80%;
+    max-width: 60px;
+    padding: var(--size-zero-five);
+    background-color: var(--color-background1);
+}
+.fb-btn {
+    border: 1px solid black;
+    padding: var(--size-one);
+    background-color: #3b5998;
+    color: var(--white);
+    font-size: large;
+}
+.twitter-btn {
+    border: 1px solid black;
+    padding: var(--size-one);
+    background-color: #08e0a9;
+    color: var(--white);
+    font-size: large;
+}
+.ig-btn {
+    border: 1px solid black;
+    padding: var(--size-one);
+    background-color: #dd2a7b;
+    color: var(--white);
+    font-size: large;
+}
