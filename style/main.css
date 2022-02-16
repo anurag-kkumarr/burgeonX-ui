@@ -1,6 +1,4 @@
-@import "variable.css";
-@import "reset.css";
-@import "common.css";
+@import "import.css";
 
 .navigation {
     padding: 1rem 0rem 0rem 0rem;

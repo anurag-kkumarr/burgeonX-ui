@@ -1,6 +1,4 @@
-@import "common.css";
-@import "variable.css";
-@import "reset.css";
+@import "/style/import.css";
 
 .alert-box {
     display: flex;

@@ -1,5 +1,4 @@
-/* @import "/main.css"; */
-@import "/variable.css";
+@import "/style/import.css";
 
 .avatar-container {
     display: flex;
