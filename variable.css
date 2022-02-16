@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&display=swap');
 
 :root {
 
     /* Theme color */
+    --color-primary: #105FD3;
+    --color-secondary: #1072d3;
+
+    --color-background1: rgb(196, 191, 191);
+    --color-background2: rgb(191, 196, 196);
+
     --color-background-primary: hsl(56, 96%, 67%);
     --color-background-secondary: #d3d305;
     --button-background-primary: rgb(36, 36, 238);
@@ -163,6 +169,18 @@
 /* CSS Color Module Level 4	 */
     --rebeccapurple:#663399;
 
+    /* sizes (in Rem) */
+    --size-one: 1rem;
+    --size-two: 2rem;
+    --size-three: 3rem;
+    --size-four: 4rem;
+    --size-five: 5rem;
+    --size-six: 6rem;
+    --size-zero-five: 0.5rem;
+    --size-one-two: 1.2rem;
+    --size-one-five: 1.5rem;
+    --size-two-five: 2.5rem;
     /* Font-family */
     --font-lobster:'Lobster', cursive;
+    --font-dosis: 'Dosis', sans-serif;
 }

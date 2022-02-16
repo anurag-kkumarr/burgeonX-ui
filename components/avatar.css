@@ -11,8 +11,10 @@
 .avatar-img {
     display: flex;
     justify-content: space-between;
+    background-color: var(--color-background1);
     width: 90%;
-    max-width: 800px;
+    max-width: 840px;
+    margin-bottom: var(--size-two);
     padding: 1rem;
     border: 1px solid black;
     align-items: center;
@@ -24,7 +26,7 @@
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
-    border: 2px solid var(--yellow);
+    border: 2px solid var(--color-primary);
 }
 .avatar-xs-xsmall {
     width: 2rem;
@@ -71,8 +73,9 @@
 .bg-cyan {
     background-color: var(--cyan);
 }
-.code-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
+
+code {
+    background-color: var(--color-background1);
+    color: var(--purple);
+    font-size: 1rem;
 }
