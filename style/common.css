@@ -1,0 +1,62 @@
+@import "/variable.css";
+
+.flex {
+    display: flex;
+}
+.flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.pad-rem-half {
+    padding: 0.5rem;
+}
+.no-border {
+    list-style-type: none;
+}
+.margin-bottom-one {
+    margin-bottom: var(--size-one);
+}
+.margin-bottom-two {
+    margin-bottom: var(--size-two);
+}
+.margin-bottom-three {
+    margin-bottom: var(--size-three);
+}
+.margin-bottom-four {
+    margin-bottom: var(--size-four);
+}
+.margin-bottom-five {
+    margin-bottom: var(--size-five);
+}
+.margin-bottom-six {
+    margin-bottom: var(--size-six);
+}
+.color-white {
+    color: var(--white);
+}
+.text-center {
+    text-align: center;
+}
+.round-border {
+    border: 2px solid var(--color-background1);
+    border-radius: 0.4rem;
+    padding: var(--size-zero-five);
+    margin-right: var(--size-zero-five);
+}
+.horizontal-center {
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rounded-square-box {
+    border: 2px solid var(--color-background1);
+    padding: var(--size-one);
+    border-radius: var(--size-one-five);
+    background-color: var(--white);
+    color: var(--color-primary);
+}

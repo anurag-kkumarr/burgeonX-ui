@@ -1,0 +1,88 @@
+@import "/import.css";
+@import "/components/CSS/variousComp.css";
+
+.nav-bar {
+    border: 1px solid lightblue;
+    padding: var(--size-two);
+    background-color: var(--color-primary);
+    color: var(--white);
+    font-family: var(--font-dosis);
+}   
+
+.content-box {
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.side-container {
+    width: 30%;
+    max-width: 300px;
+    padding: var(--size-two);
+    margin-bottom: var(--size-one);
+    align-items: center;
+    background-color: var(--color-primary);
+    overflow-y: scroll;
+    
+}
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: var(--size-six);
+
+}
+.sidebar-items {
+    display: flex;
+    cursor: pointer;
+    width: var(--size-six);
+    padding-left: var(--size-one);
+    padding-right: var(--size-one);
+    border-radius: var(--size-one-five);
+}
+a {
+    color: var(--white);
+    font-weight: bold;
+    font-size: var(--size-one-two);
+}
+.sidebar-items:hover, .sidebar-items:active {
+    border: 2px solid var(--color-background1);
+    padding: var(--size-one);
+    border-radius: var(--size-one-five);
+    background-color: var(--white);
+    color: var(--color-primary);
+}
+
+.main-container {
+    
+    font-family: var(--font-dosis);
+    padding: var(--size-one);
+    margin: var(--size-one);
+    width: 100%;
+    overflow-y: scroll;
+    flex-grow: 1;
+}
+.component-title {
+    
+    border-bottom: 1px solid black;
+    margin-bottom: var(--size-one);
+    
+}
+.component-def {
+    margin-bottom: var(--size-two);
+}
+.code-container {
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;                         
+}
+.avatar-collection {
+    margin-bottom: var(--size-three);
+}
+
+.line-space {
+    line-height: 3;
+}
+.line-space-one {
+    line-height: 1;
+}

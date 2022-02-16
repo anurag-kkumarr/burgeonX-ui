@@ -1,0 +1,80 @@
+@import "/style/import.css";
+
+.avatar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.avatar-img {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-background1);
+    width: 90%;
+    max-width: 840px;
+    margin-bottom: var(--size-two);
+    padding: 1rem;
+    border: 1px solid black;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.avatar {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 2px solid var(--color-primary);
+}
+.avatar-xs-xsmall {
+    width: 2rem;
+    height: 2rem;
+}
+.avatar-s-small {
+    width: 3rem;
+    height: 3rem;
+}
+.avatar-r-regular {
+    width: 4rem;
+    height: 4rem;
+}
+.avatar-l-large {
+    width: 5rem;
+    height: 5rem;
+}
+.avatar-xl-xlarrge {
+    width: 6rem;
+    height: 6rem;
+}
+.avatar-alphabet {
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--red);
+    text-align: center;
+    font-size: 4rem;
+    font-family: var(--font-lobster);
+    border-radius: 50%;
+    color: var(--yellow);
+}
+.bg-red {
+    background-color: var(--red);
+}
+.bg-green {
+    background-color: var(--green);
+}
+.bg-blue {
+    background-color: var(--blue);
+}
+.bg-purple {
+    background-color: var(--purple);
+}
+.bg-cyan {
+    background-color: var(--cyan);
+}
+
+code {
+    background-color: var(--color-background1);
+    color: var(--purple);
+    font-size: 1rem;
+}

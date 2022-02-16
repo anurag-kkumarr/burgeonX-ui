@@ -1,0 +1,74 @@
+@import "/style/import.css";
+
+.alert-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color-background1);
+    width: 90%;
+    max-width: 840px;
+    padding: 1rem;
+    border: 1px solid black;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.success-alert {
+    border: 1px solid black;
+    color: var(--white);
+    padding: var(--size-one);
+    border-radius: var(--size-one);
+    font-size: var(--size-one);
+    text-align: center;
+    background-color: var(--green);
+    font-weight: bold;
+    width: 60%;
+    word-spacing: 1ch;
+}
+.failure-alert {
+    border: 1px solid black;
+    color: var(--white);
+    padding: var(--size-one);
+    border-radius: var(--size-one);
+    text-align: center;
+    background-color: var(--black);
+    font-weight: bold;
+    width: 60%;
+    word-spacing: 1ch;
+}
+.danger-alert {
+    border: 1px solid black;
+    color: var(--white);
+    padding: var(--size-one);
+    border-radius: var(--size-one);
+    font-size: var(--size-one);
+    text-align: center;
+    background-color: var(--red);
+    font-weight: bold;
+    width: 60%;
+    word-spacing: 1ch;
+}
+.primary-alert {
+    border: 1px solid black;
+    padding: var(--size-one);
+    color: var(--white);
+    border-radius: var(--size-one);
+    font-size: var(--size-one);
+    text-align: center;
+    background-color: var(--blue);
+    font-weight: bold;
+    width: 60%;
+    word-spacing: 1ch;
+}
+.secondary-alert {
+    border: 1px solid black;
+    padding: var(--size-one);
+    border-radius: var(--size-one);
+    font-size: var(--size-one);
+    text-align: center;
+    background-color: whitesmoke;
+    font-weight: bold;
+    width: 60%;
+    word-spacing: 1ch;
+}
