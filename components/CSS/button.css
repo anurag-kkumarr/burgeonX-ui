@@ -1,0 +1,73 @@
+@import "/style/import.css";
+
+.cta-btn {
+    border: 1px solid black;
+    padding: var(--size-one);
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: var(--white);
+    cursor: pointer;
+}
+.col-primary {
+    background-color: var(--color-primary);
+    
+}
+.col-primary1 {
+    background-color: var(--darkorange);
+}
+.basic-btn {
+    border: 1px solid black;
+    width: 80%;
+    max-width: 60px;
+    padding: var(--size-zero-five);
+    background-color: var(--color-background1);
+}
+.link-btn {
+    color: blue;
+    text-decoration: underline;
+}
+
+.fb-btn {
+    border: 1px solid black;
+    padding: var(--size-one);
+    background-color: #3b5998;
+    color: var(--white);
+    font-size: large;
+}
+.twitter-btn {
+    border: 1px solid black;
+    padding: var(--size-one);
+    background-color: #08e0a9;
+    color: var(--white);
+    font-size: large;
+}
+.ig-btn {
+    border: 1px solid black;
+    padding: var(--size-one);
+    background-color: #dd2a7b;
+    color: var(--white);
+    font-size: large;
+}
+button>span {
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+}
+.float-rd {
+    width: var(--size-three);
+    height: var(--size-three);
+    background-color: green;
+    color: white;
+    font-size: var(--size-two);
+    font-weight: bolder;
+}
+.float-btn {
+    cursor: pointer;
+}
+.shift-right {
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    right: 30px;
+}

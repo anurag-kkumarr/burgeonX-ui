@@ -14,6 +14,15 @@
 .pad-rem-half {
     padding: 0.5rem;
 }
+.pad-one {
+    padding: 1rem;;
+}
+.pad-one-five {
+    padding: 1.5rem;;
+}
+.pad-two {
+    padding: 2rem;
+}
 .no-border {
     list-style-type: none;
 }
@@ -35,8 +44,20 @@
 .margin-bottom-six {
     margin-bottom: var(--size-six);
 }
+.margin-right-one {
+    margin-right: var(--size-one);
+}
+.margin-right-two {
+    margin-right: var(--size-two);
+}
+.margin-right-three {
+    margin-right: var(--size-three);
+}
 .color-white {
     color: var(--white);
+}
+.color-red {
+    color: red;
 }
 .text-center {
     text-align: center;
@@ -60,3 +81,11 @@
     background-color: var(--white);
     color: var(--color-primary);
 }
+.flex-gap-one {
+    display: flex;
+    gap: var(--size-one);
+} 
+.flex-gap-two {
+    display: flex;
+    gap: var(--size-two);
+} 

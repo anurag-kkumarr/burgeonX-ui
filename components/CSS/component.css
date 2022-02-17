@@ -43,7 +43,7 @@
     padding-right: var(--size-one);
     border-radius: var(--size-one-five);
 }
-a {
+.link-primary {
     color: var(--white);
     font-weight: bold;
     font-size: var(--size-one-two);

@@ -1,0 +1,61 @@
+@import "/style/import.css";
+
+.badge-wrap {
+    position: relative;
+    width: max-content;
+}
+.badge-wrap >span {
+    bottom: 10%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.badge-av-xl {
+    width: var(--size-one);
+    height: var(--size-one);
+    right: 8px;
+}
+.badge-av-rg {
+    width: var(--size-zero-five);
+    height: var(--size-zero-five);
+    right: 9px;
+}
+.badge-av-sm {
+    width: var(--size-zero-four);
+    height: var(--size-zero-four);
+    right: 6px;
+}
+.badge {
+    position: relative;
+    width: min-content;
+    
+  }
+  .badge>span {
+      position: absolute;
+      border-radius: 50%;
+      text-align: center;
+  }
+  .badge-ic {
+    width: var(--size-one);
+    height: var(--size-one);
+    font-size: 0.8rem;
+    font-weight: bold;
+    left: var(--size-one-five);
+    bottom: var(--size-one-five);
+  }
+
+.badge-red {
+    background-color: red;
+}
+.badge-green {
+    background-color: green;
+}
+.badge-yellow {
+    background-color: yellow;
+}
+.badge-black {
+    background-color: black;
+}
+.badge-white {
+    background-color: white;
+}
