@@ -78,7 +78,8 @@
     width: 90%;
     max-width: 1000px;
     display: flex;
-    flex-wrap: wrap;                         
+    flex-wrap: wrap;
+    margin-bottom: var(--size-two);                         
 }
 .avatar-collection {
     margin-bottom: var(--size-three);
