@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800;900&display=swap');
 :root {
 
     /* Theme color */
@@ -9,6 +9,7 @@
 
     --color-background1: rgb(196, 191, 191);
     --color-background2: rgb(191, 196, 196);
+    --blueviolet1: rgb(49, 8, 58);
 
     --color-bg-primary: hsl(56, 96%, 67%);
     --color-bg-secondary: #d3d305;
@@ -186,4 +187,5 @@
     /* Font-family */
     --font-lobster:'Lobster', cursive;
     --font-dosis: 'Dosis', sans-serif;
+    --font-playfair: 'Playfair Display', serif;
 }

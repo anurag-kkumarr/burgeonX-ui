@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Documentation</title>
 </head>
 
@@ -23,6 +24,9 @@
 
         </nav>
         <main class="content-box">
+
+            <!-- Side menu -->
+
             <div class="side-container flex-column">
                 <h2 class="color-white margin-bottom-one text-center rounded-square-box">Components</h2>
                 <div class="sidebar-menu">
@@ -40,6 +44,9 @@
                 </div>
             </div>
             <div class="main-container">
+
+                <!-- Avatar component begins -->
+
                 <section id="avatar" class="avatar-container margin-bottom-three">
                     <h1 class="component-title">#Avatar</h1>
                     <h2 class="component-def">An avatar is a graphical representation of a user or the user's character
@@ -75,11 +82,16 @@
                         <div class="avatar-alphabet bg-cyan">B</div>
                     </div>
                     <p class="margin-bottom-two">Copy below code to to get your own alphabet avatar.</p>
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=787.75&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=23px&ph=24px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-alphabet%2520bg-red%2522%253EA%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-alphabet%2520bg-green%2522%253EP%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-alphabet%2520bg-blue%2522%253EH%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-alphabet%2520bg-purple%2522%253ES%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-alphabet%2520bg-cyan%2522%253EB%253C%252Fdiv%253E%250A%2520%2520"
-                        style="width: 850px; height: 216px; border:0; transform: scale(1); overflow:hidden;"
-                        class="margin-bottom-three" sandbox="allow-scripts allow-same-origin"></iframe>
+
+                    <div class="code-container"><iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=787.75&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=23px&ph=24px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-alphabet%2520bg-red%2522%253EA%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-alphabet%2520bg-green%2522%253EP%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-alphabet%2520bg-blue%2522%253EH%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-alphabet%2520bg-purple%2522%253ES%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-alphabet%2520bg-cyan%2522%253EB%253C%252Fdiv%253E%250A%2520%2520"
+                            style="width: 850px; height: 216px; border:0; transform: scale(1); overflow:hidden;"
+                            class="margin-bottom-three" sandbox="allow-scripts allow-same-origin"></iframe>
+                    </div>
+
                 </section>
+
+                <!-- Alert component begins -->
 
                 <section id="alert" class="alert-container">
                     <h1 class="component-title margin-bottom-one">#Alert</h1>
@@ -96,11 +108,16 @@
                         <div class="secondary-alert margin-bottom-one">This Operation is secondary one.</div>
                     </div>
                     <p class="margin-bottom-two">copy and paste below code to get your own alert box</p>
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522success-alert%2520margin-bottom-one%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-rocket%2522%253E%253C%252Fi%253E%2520This%2520Operation%2520is%2520successful.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522failure-alert%2520margin-bottom-one%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-xmark%2522%253E%253C%252Fi%253E%2520This%2520Operation%2520is%2520failure.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522danger-alert%2520margin-bottom-one%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-triangle-exclamation%2522%253E%253C%252Fi%253E%2520This%2520Operation%2520is%2520too%2520risky.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522primary-alert%2520margin-bottom-one%2522%253EThis%2520Operation%2520is%2520primary%2520one.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522secondary-alert%2520margin-bottom-one%2522%253EThis%2520Operation%2520is%2520secondary%2520one.%253C%252Fdiv%253E"
-                        style="width: 840px; height: 356px; border:0; transform: scale(1); overflow:hidden;"
-                        class="margin-bottom-three" sandbox="allow-scripts allow-same-origin"></iframe>
+
+                    <div class="code-container"><iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522success-alert%2520margin-bottom-one%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-rocket%2522%253E%253C%252Fi%253E%2520This%2520Operation%2520is%2520successful.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522failure-alert%2520margin-bottom-one%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-xmark%2522%253E%253C%252Fi%253E%2520This%2520Operation%2520is%2520failure.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522danger-alert%2520margin-bottom-one%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-triangle-exclamation%2522%253E%253C%252Fi%253E%2520This%2520Operation%2520is%2520too%2520risky.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522primary-alert%2520margin-bottom-one%2522%253EThis%2520Operation%2520is%2520primary%2520one.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522secondary-alert%2520margin-bottom-one%2522%253EThis%2520Operation%2520is%2520secondary%2520one.%253C%252Fdiv%253E"
+                            style="width: 840px; height: 356px; border:0; transform: scale(1); overflow:hidden;"
+                            class="margin-bottom-three" sandbox="allow-scripts allow-same-origin"></iframe>
+                    </div>
+
                 </section>
+
+                <!-- Badge component begins -->
 
                 <section id="badge" class="badge-container">
                     <h1 class="component-title margin-bottom-one">#Badge</h1>
@@ -139,11 +156,11 @@
 
                     <p class="margin-bottom-two">copy and paste below code to get badge on Avatar</p>
 
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xl-xlarge%2522%2520src%253D%2522%252Fassets%252FAi-generated-img.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522brown-girl-child%2522%253E%253Cspan%2520class%253D%2522badge-av-xl%2520badge-red%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-l-large%2522%2520src%253D%2522%252Fassets%252Fgirl-anime.jpg%2522alt%253D%250A%2520%2520%2520%2520%2520%2520%2520%2520%2522girl-anime%2522%253E%253Cspan%2520class%253D%2522badge-av-xl%2520badge-green%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-r-regular%2522%2520src%253D%2522%252Fassets%252Femp.jpg%2522%2520alt%253D%250A%2520%2520%2520%2520%2520%2520%2520%2520%2522employee%2522%253E%253Cspan%2520class%253D%2522badge-av-rg%2520badge-yellow%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-s-small%2522%2520src%253D%2522%252Fassets%252Fanime.jpg%2522%2520alt%253D%250A%2520%2520%2520%2520%2520%2520%2520%2522avatar%2522%253E%253Cspan%2520class%253D%2522badge-av-rg%2520badge-black%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xs-xsmall%2522%2520src%253D%2522%252Fassets%252Fanime2.jpg%2522%2520alt%253D%2522%250A%2520%2520%2520%2520%2520%2520%2520developer%2522%253E%253Cspan%2520class%253D%2522badge-av-sm%2520badge-white%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520"
-                        style="width: 831px; height: 300px; border:0; transform: scale(1); overflow:scroll;"
-                        class="margin-bottom-two" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                    <div class="code-container"><iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xl-xlarge%2522%2520src%253D%2522%252Fassets%252FAi-generated-img.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522brown-girl-child%2522%253E%253Cspan%2520class%253D%2522badge-av-xl%2520badge-red%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-l-large%2522%2520src%253D%2522%252Fassets%252Fgirl-anime.jpg%2522alt%253D%250A%2520%2520%2520%2520%2520%2520%2520%2520%2522girl-anime%2522%253E%253Cspan%2520class%253D%2522badge-av-xl%2520badge-green%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-r-regular%2522%2520src%253D%2522%252Fassets%252Femp.jpg%2522%2520alt%253D%250A%2520%2520%2520%2520%2520%2520%2520%2520%2522employee%2522%253E%253Cspan%2520class%253D%2522badge-av-rg%2520badge-yellow%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-s-small%2522%2520src%253D%2522%252Fassets%252Fanime.jpg%2522%2520alt%253D%250A%2520%2520%2520%2520%2520%2520%2520%2522avatar%2522%253E%253Cspan%2520class%253D%2522badge-av-rg%2520badge-black%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xs-xsmall%2522%2520src%253D%2522%252Fassets%252Fanime2.jpg%2522%2520alt%253D%2522%250A%2520%2520%2520%2520%2520%2520%2520developer%2522%253E%253Cspan%2520class%253D%2522badge-av-sm%2520badge-white%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520"
+                            style="width: 831px; height: 300px; border:0; transform: scale(1); overflow:scroll;"
+                            class="margin-bottom-two" sandbox="allow-scripts allow-same-origin">
+                        </iframe></div>
 
                     <h3 class="avatar-collection margin-bottom-two">Badge on icon</h3>
 
@@ -166,17 +183,23 @@
                     </div>
 
                     <p class="margin-bottom-two">copy and paste below code to get badge on icon</p>
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-wrap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-cart-plus%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%253Cspan%2520class%253D%2522badge-ic%2520badge-red%2520color-white%2522%253E2%253C%252Fspan%253E%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-wrap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-bell%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%253Cspan%2520class%253D%2522badge-ic%2520badge-red%2520color-white%2522%253E15%253C%252Fspan%253E%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-wrap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-envelope%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%253Cspan%2520class%253D%2522badge-ic%2520badge-red%2520color-white%2522%253E2%253C%252Fspan%253E%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 820px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
-                        class="margin-bottom-three" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+
+                    <div class="code-container"><iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-wrap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-cart-plus%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%253Cspan%2520class%253D%2522badge-ic%2520badge-red%2520color-white%2522%253E2%253C%252Fspan%253E%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-wrap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-bell%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%253Cspan%2520class%253D%2522badge-ic%2520badge-red%2520color-white%2522%253E15%253C%252Fspan%253E%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-wrap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-envelope%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%253Cspan%2520class%253D%2522badge-ic%2520badge-red%2520color-white%2522%253E2%253C%252Fspan%253E%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            style="width: 820px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                            class="margin-bottom-three" sandbox="allow-scripts allow-same-origin">
+                        </iframe></div>
+
                 </section>
+
+                <!-- Button component begins -->
 
                 <section id="button" class="button-container">
                     <h1 class="component-title margin-bottom-one">#Button</h1>
                     <h2 class="component-def margin-bottom-two">Button is a clickable component on the Ui which is often
                         used to perform some operations when pressed.</h2>
+
+                    <!-- CTA Call to Action Button -->
                     <h3 class=" margin-bottom-two">CTA- Call to Action Button</h3>
                     <div class="margin-bottom-two">
                         <button class="cta-btn col-primary ">Primary</button>
@@ -189,14 +212,20 @@
                         class="margin-bottom-two" sandbox="allow-scripts allow-same-origin">
                     </iframe>
 
+                    <!-- Basic Button -->
+
                     <h3 class="margin-bottom-two">A Basic Button</h3>
                     <div class="margin-bottom-two">
                         <button class="basic-btn margin-bottom-two">click</button>
                         <p class="margin-bottom-two">copy and paste below code to get your own basic button.</p>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522basic-btn%2522%253Eclick%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%250A"
-                            style="width: 574px; height: 213px; border:0; transform: scale(1); overflow:hidden;"
-                            class="margin-bottom-two" sandbox="allow-scripts allow-same-origin"></iframe>
+
+                        <div class="code-container"><iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522basic-btn%2522%253Eclick%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%250A"
+                                style="width: 574px; height: 213px; border:0; transform: scale(1); overflow:hidden;"
+                                class="margin-bottom-two" sandbox="allow-scripts allow-same-origin"></iframe>
+                        </div>
+
+                        <!-- Link Button -->
 
                         <h3 class=" margin-bottom-two">Link Button</h3>
                         <div class="margin-bottom-two">
@@ -204,11 +233,13 @@
                             <button class="link-btn"><a href="">Link2</a></button>
                         </div>
                         <p class="margin-bottom-two">copy and paste below code to get your Link button.</p>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522link-btn%2522%253E%253Ca%2520href%253D%2522%2523button%2522%253ELink1%253C%252Fa%253E%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522link-btn%2522%253E%253Ca%2520href%253D%2522%2522%253ELink2%253C%252Fa%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520"
-                            style="width: 703px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
-                            class="margin-bottom-two" sandbox="allow-scripts allow-same-origin">
-                        </iframe>
+                        <div class="code-container"><iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522link-btn%2522%253E%253Ca%2520href%253D%2522%2523button%2522%253ELink1%253C%252Fa%253E%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522link-btn%2522%253E%253Ca%2520href%253D%2522%2522%253ELink2%253C%252Fa%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520"
+                                style="width: 703px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+                                class="margin-bottom-two" sandbox="allow-scripts allow-same-origin">
+                            </iframe></div>
+
+                        <!-- Social Media Button -->
 
                         <h3 class="margin-bottom-two">Social Media Button</h3>
                         <div class="flex-gap-one margin-bottom-two">
@@ -218,10 +249,13 @@
                         </div>
                         <p class="margin-bottom-two">copy and paste below code to get your own social media button.
                         </p>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522fb-btn%2522%253E%253Ci%2520class%253D%2522fa-brands%2520fa-facebook%2522%253E%250A%2520%2520%2520%2520%2520%253C%252Fi%253Efacebook%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522twitter-btn%2522%253E%253Ci%2520class%253D%2522fa-brands%2520fa-twitter%2522%253E%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%253C%252Fi%253E%2520twitter%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522ig-btn%2522%253E%253Ci%2520class%253D%2522fa-brands%2520fa-instagram%2522%253E%250A%2520%2520%2520%2520%2520%253C%252Fi%253E%2520instagram%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%250A"
-                            style="width: 746px; height: 319px; border:0; transform: scale(1); overflow:hidden;"
-                            class="margin-bottom-two" sandbox="allow-scripts allow-same-origin"></iframe>
+
+                        <div class="code-container"><iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522fb-btn%2522%253E%253Ci%2520class%253D%2522fa-brands%2520fa-facebook%2522%253E%250A%2520%2520%2520%2520%2520%253C%252Fi%253Efacebook%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522twitter-btn%2522%253E%253Ci%2520class%253D%2522fa-brands%2520fa-twitter%2522%253E%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%253C%252Fi%253E%2520twitter%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522ig-btn%2522%253E%253Ci%2520class%253D%2522fa-brands%2520fa-instagram%2522%253E%250A%2520%2520%2520%2520%2520%253C%252Fi%253E%2520instagram%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%250A"
+                                style="width: 746px; height: 319px; border:0; transform: scale(1); overflow:hidden;"
+                                class="margin-bottom-two" sandbox="allow-scripts allow-same-origin"></iframe>
+                        </div>
+                        <!-- Icons as Button -->
 
                         <h3 class="margin-bottom-two">Icons as Button</h3>
                         <div class="flex-gap-two margin-bottom-two">
@@ -238,19 +272,240 @@
 
                         <h3 class="margin-bottom-two">Floating Action Button</h3>
                         <h4 class="margin-bottom-two">Floating Action button is generally a circular button present on
-                            top of screen which is used to perfom primary or most common operations. Here It is left aligned. When clicked Page will scroll to top.</h4>
+                            top of screen which is used to perfom primary or most common operations. Here It is left
+                            aligned. When clicked Page will scroll to top.</h4>
                         <div class="flex-gap-two margin-bottom-five">
                             <button class="float-btn"><span class="float-rd">&#8593;</span></button>
                         </div>
                         <p class="margin-bottom-two">copy and paste below code to get your own basic button.</p>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522float-btn%2522%253E%253Cspan%2520class%253D%2522float-rd%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2522%253E%2526%25238593%253B%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520"
-                            style="width: 678px; height: 234px; border:0; transform: scale(1); overflow:hidden;" class="margin-bottom-three"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
+
+                        <div class="code-container"><iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522float-btn%2522%253E%253Cspan%2520class%253D%2522float-rd%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2522%253E%2526%25238593%253B%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520"
+                                style="width: 678px; height: 234px; border:0; transform: scale(1); overflow:hidden;"
+                                class="margin-bottom-three" sandbox="allow-scripts allow-same-origin">
+                            </iframe></div>
 
 
                 </section>
+
+                <!-- Card component begins -->
+
+                <section id="card" class="card-container margin-bottom three">
+                    <h1 class="component-title margin-bottom-one">#Card</h1>
+                    <h2 class="component-def margin-bottom-two">Cards is small Rectangular component of web-page. It
+                        comprises of images, links, text, button etc. </h2>
+
+                    <!-- Card with Badges -->
+                    <h2 class="avatar-collection margin-bottom-two">Cards with Badges</h2>
+                    <div class="card-layout">
+                        <div class="wrapper-card card-dimension">
+                            <img class="card-img" src="/assets/rolex.jpg" />
+                            <div class="card-badge"><span class="card-sm pos-badge">Few left in stock</span></div>
+                            <div class="card-header">
+                                <h1 class="margin-bottom-zero-five">ROLEX WATCH</h1>
+                            </div>
+                            <blockquote class="margin-bottom-zero-five">
+                                OG of all watch is here. Talk about luxury or fashion quotient, It always tops the
+                                chart.
+                            </blockquote>
+                            <p class="margin-bottom-zero-five"><strong>$1800 </strong><small>$2000 </small> <strong>(20%
+                                    off)</strong></p>
+
+                            <button class="cart-btn fluid"><i class="fa-solid fa-cart-shopping fa-2x"></i></i></button>
+                        </div>
+                    </div>
+                    <p class="margin-top-two">Copy and paste below code to get text with basic badge</p>
+
+                    <div class="code-container"><iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%253Cdiv%2520class%253D%2522wrapper-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522%252Fassets%252Frolex.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E%253Cspan%2520class%253D%2522card-sm%2522%253EFew%2520left%2520in%2520stock%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%253Ch1%253EROLEX%2520WATCH%253C%252Fh1%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cblockquote%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520OG%2520of%2520all%2520watch%2520is%2520here.%2520Talk%2520about%2520luxury%2520or%2520fashion%2520quotient%252C%2520It%2520always%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520tops%2520the%2520chart.%253C%252Fblockquote%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%253Cstrong%253E%25241800%2520%253C%252Fstrong%253E%253Csmall%253E%25242000%2520%253C%252Fsmall%253E%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253E%2820%2525%2520off%29%253C%252Fstrong%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart-btn%2520fluid%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-cart-shopping%2520fa-2x%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E"
+                            style="width: 750px; height: 360px; border:0; transform: scale(1); overflow:hidden;"
+                            class="margin-bottom-two margin-top-two" sandbox="allow-scripts allow-same-origin">
+                        </iframe></div>
+
+                    <!-- Cards with dismiss -->
+
+                    <h2 class="avatar-collection margin-bottom-two">Cards with Dismiss</h2>
+                    <div id="dismiss" class="card-layout">
+                        <div class="card-dimension wrapper-card">
+                            <img class="card-img" src="/assets/rolex.jpg" />
+                            <div class="card-badge"><span class="card-sm pos-dismiss">X</span></div>
+                            <div class="card-header">
+                                <h1 class="margin-bottom-zero-five">ROLEX WATCH</h1>
+                            </div>
+                            <blockquote class="margin-bottom-zero-five">
+                                OG of all watch is here. Talk about luxury or fashion quotient, It always tops the
+                                chart.
+                            </blockquote>
+                            <p class="margin-bottom-zero-five"><strong>$1800 </strong><small>$2000 </small> <strong>(20%
+                                    off)</strong></p>
+
+                            <button class="cart-btn fluid"><i class="fa-solid fa-cart-shopping fa-2x"></i></i></button>
+                        </div>
+
+                    </div>
+                    <button id="show-btn" class="margin-bottom-two">show</button>
+
+                    <p class="margin-top-two">Copy and paste below code to get text with dismiss button</p>
+                    <div class="code-container"><iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=none&l=auto&width=850.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%253Cdiv%2520%2520class%253D%2522wrapper-card%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522%252Fassets%252Frolex.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E%253Cspan%2520class%253D%2522card-sm%2520pos-dismiss%2522%253EX%253C%252Fspan%253E%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%253Ch1%2520class%253D%2522margin-bottom-zero-five%2522%253EROLEX%2520WATCH%253C%252Fh1%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%253Cblockquote%2520class%253D%2522margin-bottom-zero-five%2522%253EOG%2520of%2520all%2520watch%2520is%2520here.%2520Talk%2520about%250A%2520%2520%2520%2520luxury%2520or%2520fashion%2520quotient%252C%2520It%2520always%2520tops%2520the%2520chart.%253C%252Fblockquote%253E%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cp%2520class%253D%2522margin-bottom-zero-five%2522%253E%253Cstrong%253E%25241800%2520%253C%252Fstrong%253E%253Csmall%253E%25242000%253C%252Fsmall%253E%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cstrong%253E%2820%2525%2520off%29%253C%252Fstrong%253E%253C%252Fp%253E%2520%250A%250A%2520%2520%253Cbutton%2520class%253D%2522cart-btn%2520fluid%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-cart-shopping%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                            style="width: 750px; height: 400px; border:0; transform: scale(1); overflow:hidden;"
+                            class="margin-top-two margin-bottom-two" sandbox="allow-scripts allow-same-origin">
+                        </iframe></div>
+
+                    <!-- Cards with text overlay -->
+
+                    <h2 class="avatar-collection margin-bottom-two">Cards with text overlay</h2>
+                    <div class="card-layout">
+                        <div class="flex-column margin-bottom-two">
+                            <div class="wrapper-card margin-bottom-two card-dimension">
+                                <img class="card-img img-blur" src="/assets/rolex.jpg" />
+                                <div class="card-badge"><span class="card-sm pos-badge">wll come soon</span></div>
+                                <div class="card-header">
+                                    <h1 class="margin-bottom-zero-five">ROLEX WATCH</h1>
+                                </div>
+                                <blockquote class="margin-bottom-zero-five">
+                                    OG of all watch is here. Talk about luxury or fashion quotient, It always tops the
+                                    chart.
+                                </blockquote>
+                                <p class="margin-bottom-zero-five"><strong>$1800 </strong><small>$2000 </small>
+                                    <strong>(20%
+                                        off)</strong></p>
+
+                                <button class="cart-btn fluid"><i
+                                        class="fa-solid fa-cart-shopping fa-2x"></i></i></button>
+                            </div>
+                            <div class="text-overlay">OUT OF STOCK</div>
+                        </div>
+                    </div>
+
+
+                    <p class="margin-bottom-two margin-collapse">Copy and paste below code to get text overlay card</p>
+
+                    <div class="code-container"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=sharp&l=auto&width=860.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522card-layout%2520flex-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wrapper-card%2522%253E%253Cimg%2520class%253D%2522card-img%2520img-blur%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522%252Fassets%252Frolex.jpg%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E%253Cspan%2520class%253D%2522card-sm%2520pos-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520wll%2520come%2520soon%253C%252Fspan%253E%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%253Ch1%253EROLEX%2520WATCH%253C%252Fh1%253E%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253EOG%2520of%2520all%2520watch%250A%2520%2520%2520%2520%2520%2520%2520is%2520here.%2520Talk%2520about%2520luxury%2520or%2520fashion%2520quotient%252C%2520It%2520always%2520tops%250A%2520%2520%2520%2520%2520%2520%2520the%2520chart.%2520%253C%252Fp%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%253Cstrong%253E%25241800%2520%253C%252Fstrong%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253E%25242000%253C%252Fsmall%253E%2520%253Cstrong%253E%2820%2525%2520off%29%253C%252Fstrong%253E%253C%252Fp%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart-btn%2520fluid%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-cart-shopping%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-overlay%2522%253EOUT%2520OF%2520STOCK%253C%252Fdiv%253E%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                        style="width: 100%; height: 400px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe></div>
+
+                    <!-- Text only cards -->
+
+                    <h2 class="avatar-collection margin-bottom-two">Text only card</h2>
+                    <div class="card-layout ">
+                        <div class="wrapper-card card-max-ht card-dimension">
+                            <div class="card-header">
+                                <h1 class="margin-bottom-two">ROLEX WATCH</h1>
+                            </div>
+                            <blockquote class="margin-bottom-two">
+                                OG of all watch is here. Talk about luxury or fashion quotient, It always tops the
+                                chart.
+                            </blockquote>
+                            <p class="margin-bottom-two"><strong>$1800 </strong><small>$2000 </small> <strong>(20%
+                                    off)</strong></p>
+
+                            <button class="cart-btn fluid"><i class="fa-solid fa-cart-shopping fa-2x"></i></i></button>
+                        </div>
+                    </div>
+                    <p class="margin-top-two margin-bottom-two">Copy and paste below code to get text only card</p>
+                    <div class="code-container"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=sharp&l=auto&width=860.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522wrapper-card%2520card-max-ht%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%253Ch1%2520%253EROLEX%2520WATCH%253C%252Fh1%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cblockquote%2520class%253D%2522margin-bottom-two%2522%253EOG%2520of%2520all%2520watch%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520is%2520here.%2520Talk%2520about%2520luxury%2520or%2520fashion%2520quotient%252C%2520It%2520always%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520tops%2520the%2520chart.%253C%252Fblockquote%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522margin-bottom-two%2522%253E%253Cstrong%253E%25241800%2520%253C%252Fstrong%253E%253Csmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25242000%2520%253C%252Fsmall%253E%2520%253Cstrong%253E%2820%2525%2520off%29%253C%252Fstrong%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart-btn%2520fluid%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-cart-%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520shopping%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                        style="width: 100%; height: 482px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe></div>
+
+                    <!-- Horizontal card -->
+
+                    <h2 class="avatar-collection margin-bottom-two">Horizontal Card</h2>
+                    <div>
+                        <div class="wrapper-card card-dimension-hz">
+                            <div class="flex flex-gap-one margin-bottom-one">
+                                <img class="card-img-hz" src="/assets/rolex.jpg" />
+
+                                <div class="flex-column">
+                                    <div class="card-header">
+                                        <h1 class="margin-bottom-one">ROLEX WATCH</h1>
+                                    </div>
+                                    <blockquote class="line-space-three margin-bottom-one">
+                                        OG of all watch is here. Talk about luxury or fashion quotient, It always tops
+                                        the
+                                        chart.
+                                    </blockquote>
+                                    <p class="margin-bottom-zero-five"><strong>$1800 </strong><small>$2000 </small>
+                                        <strong>(20%
+                                            off)</strong></p>
+                                </div>
+                            </div>
+
+                            <button class="cart-btn fluid"><i class="fa-solid fa-cart-shopping fa-2x"></i></i></button>
+                        </div>
+                    </div>
+                    <p class="margin-top-two margin-bottom-two">Copy and paste below code to get horizontal card</p>
+
+                    <div class="code-container">
+                        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=sharp&l=auto&width=860.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522wrapper-card%2520card-dimension-hz%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520flex-gap-one%2520margin-bottom-one%2522%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img-hz%2522src%253D%2522%252Fassets%252Frolex.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-column%2522%253E%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522margin-bottom-one%2522%253EROLEX%2520WATCH%253C%252Fh1%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cblockquote%2520class%253D%2522line-space-three%2520margin-bottom-one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520OG%2520of%2520all%2520watch%2520is%2520here.%2520Talk%2520about%2520luxury%2520or%2520fashion%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520quotient%252C%2520It%2520always%2520tops%2520the%2520chart.%253C%252Fblockquote%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522margin-bottom-zero-five%2522%253E%253Cstrong%253E%25241800%2520%253C%252Fstrong%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253E%25242000%2520%253C%252Fsmall%253E%2520%253Cstrong%253E%2820%2525%2520off%29%253C%252Fstrong%253E%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart-btn%2520fluid%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-cart-%250A%2520%2520%2520%2520%2520%2520shopping%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+  style="width: 100%; height: 400px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+                    </div>
+
+                        <!--Card with text shadow  -->
+
+                        <h2 class="avatar-collection margin-bottom-two">Card with shadow</h2>
+                        <div class="card-layout ">
+                            <div class="wrapper-card card-max-ht card-dimension shadow">
+                                <div class="card-header">
+                                    <h1 class="margin-bottom-two">ROLEX WATCH</h1>
+                                </div>
+                                <blockquote class="margin-bottom-two">
+                                    OG of all watch is here. Talk about luxury or fashion quotient, It always tops the
+                                    chart.
+                                </blockquote>
+                                <p class="margin-bottom-two"><strong>$1800 </strong><small>$2000 </small> <strong>(20%
+                                        off)</strong></p>
+    
+                                <button class="cart-btn fluid"><i class="fa-solid fa-cart-shopping fa-2x"></i></i></button>
+                            </div>
+                        </div>
+                        <p class="margin-top-two margin-bottom-two">Copy and paste below code to get card with shadow</p>
+                        
+                        <div class="code-container"><iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=sharp&l=auto&width=860.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522wrapper-card%2520card-max-ht%2520card-dimension%2520shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522margin-bottom-two%2522%253EROLEXWATCH%253C%252Fh1%253E%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cblockquote%2520class%253D%2522margin-bottom-two%2522%253EOG%2520of%2520all%2520watch%2520is%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520here.Talk%2520about%2520luxury%2520or%2520fashion%2520quotient%252C%2520It%2520always%2520tops%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520the%2520chart.%2520%253C%252Fblockquote%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522margin-bottom-two%2522%253E%253Cstrong%253E%25241800%2520%253C%252Fstrong%253E%253Csmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25242000%2520%253C%252Fsmall%253E%2520%253Cstrong%253E%2820%2525%2520off%29%253C%252Fstrong%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart-btn%2520fluid%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-cart-%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520shopping%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                            style="width: 100%; height: 400px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe></div>
+                </section>
+
+                <!-- Image Components begins -->
+
+                <section id="image" class="avatar-container margin-bottom-three">
+                    <h1 class="component-title">#Image</h1>
+                    <h2 class="component-def">Image is an artifact that depicts visual perception and resembles a phusical object and thus also provides its depiction. Eg. Photograph</h2>
+                    <h2 class="component-def">Responsive Image</h2>
+                    <h3 class="avatar-collection">Responsive Images are images which fits all devices perfectly. Be it mobile-devices or desktop.</h3>
+
+                    <img class="img-resp" src="/assets/responsive-img.jpg" alt="nature">
+
+                    <p class=" margin-top-two margin-bottom-two">Copy and paste below code to get responsive image.</p>
+
+                    <div class="code-container"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=sharp&l=auto&width=824&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cimg%2520class%253D%2522img-resp%2522%2520src%253D%2522%252Fassets%252Fresponsive-img.jpg%2522%2520alt%253D%2522nature%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                        style="width: 100%; height: 213px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe></div>
+
+                      <h2 class="component-def">Rounded Image</h2>
+                    <h3 class="avatar-collection">Image having round shape.</h3>
+
+                    <img class="img-rounded" src="/assets/oriole.jpg" alt="oriole">
+
+                    <p class=" margin-top-two margin-bottom-two">Copy and paste below code to get rounded image.</p>
+
+                    <div class="code-container"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2816%2C114%2C211%2C1%29&t=one-dark&wt=sharp&l=auto&width=824&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cimg%2520class%253D%2522img-rounded%2522%2520src%253D%2522%252Fassets%252Foriole.jpg%2522%2520alt%253D%2522oriole%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                        style="width: 100%; height: 229px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe></div>
+
 
         </main>
 
