@@ -9,12 +9,12 @@
 
 .wrapper-card {
     display: flex;
-    font-family: --font-playfair;
+    font-family: var(--font-dosis);
     flex-direction: column;
     padding: var(--size-one) 8px;
     border: 1px solid gray;
     align-items: center;
-    box-shadow: 0 0 5px 5px lightgray;
+    box-shadow: 0 0 5px 5px var(--lightgray);
   }
   .card-dimension {
     width: 500px;
@@ -26,6 +26,7 @@
   .card-header>h1 {
     color: darkviolet;
     font-weight: 700;
+    font-family: var(--font-playfair);
   }
 
 .card-img {
