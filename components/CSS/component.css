@@ -50,8 +50,8 @@
 }
 .sidebar-items:hover, .sidebar-items:active {
     border: 2px solid var(--color-background1);
-    padding: var(--size-one);
-    border-radius: var(--size-one-five);
+    padding: var(--size-zero-two);
+    border-radius: var(--size-zero-five);
     background-color: var(--white);
     color: var(--color-primary);
 }
