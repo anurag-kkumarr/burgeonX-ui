@@ -55,7 +55,8 @@
 .link-primary {
     background-color: var( --color-primary);
     color: #fff;
-    padding:1rem;
+    padding:var(--size-one);
+    margin-right: var(--size-zero-five);
     margin-top: var(--size-zero-five);
     width: 10rem;
     font-size: 1.5rem;
