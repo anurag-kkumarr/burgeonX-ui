@@ -1,31 +1,56 @@
 @import "import.css";
 
 .navigation {
-    padding: 1rem 0rem 0rem 0rem;
+    padding: var(--size-one) 0rem 0rem 0rem;
     background-color: var(--color-background1);
 }
-
+@media screen and (max-width:700px) {
+    .home_container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .btn-display {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.main_container {
+    display: flex;
+    flex-direction: column;
+}
 .head-top {
     color: var(--color-secondary);
     font-family: var(--font-lobster);
     z-index: 1;
-    padding: 1rem;
+    padding: var(--size-one);
     
 }
 .nav-top {
-    padding: 1rem;
+    padding: var(--size-one);
     position: absolute;
     top: 0;
     right: 0;
+}
+.home_container, .install_container {
+    
+    padding: var(--size-zero-five);
+    margin-bottom: 0;
 }
 .container_subtext {
     width: 400px;
     height: 400px;
     line-height: 2;
-    padding: 1rem 0rem 0rem 1rem;
+    padding: var(--size-one) 0rem 0rem var(--size-one);
     box-sizing: border-box;
     flex-grow: 1;
+    justify-content: space-around;
+    text-align: center;
 }
+.text-desc {
+    color: var(--color-secondary);
+}
+
 .img-logo {
     width: 50%;
     height: 50%;
@@ -33,49 +58,88 @@
     max-height: 500px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;
+    padding: var(--size-one);
     flex-grow: 1;
+    object-fit: cover;
+}
+.btn-display {
+    display: flex;
+    justify-content: center;
 }
 .link-primary {
-    background-color: var(--color-secondary);
+    background-color: var( --color-primary);
     color: #fff;
-    padding:1rem;
-    margin-top: 2rem;
-    width: 10%;
-    font-size: 1.5rem;
+    padding:var(--size-one);
+    margin-right: var(--size-zero-five);
+    margin-top: var(--size-zero-five);
+    width: 10rem;
+    font-size: var(--size-one-five);
     font-weight: 600;
-    border-radius: 0.4rem;
+    border-radius: var(--size-zero-four);
+    cursor: pointer;
+    text-align: center;
+}
+
+.link-secondary {
+    background-color: var(--color-secondary);
+    color: var(--white);
+    padding: 0.75rem;
+    width: var(--size-six);
+    font-size: var(--size-one-two);
+    font-weight: 600;
+    border-radius: var(--size-zero-four);
     cursor: pointer;
 }
 
-.button_small {
-    background-color: var(--color-primary);
-    color: #fff;
-    padding: 0.75rem;
-    width: 10rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    border-radius: 0.4rem;
-    cursor: pointer;
-}
-.main_container {
-    padding: 1rem;
+.home_container {
+    display: flex;
+    padding: var(--size-one);
     background-color: var(--color-background2);
 }
+.install_container {
+    background-color: var(--white);
+}
 
+.install-header{
+    font-size: var(--size-two);
+    color: var(--white);
+    background-color: var(--color-primary);
+    text-align: center;
+    justify-content: center;
+    margin-bottom: var(--size-one);
+}
+.install-flex {
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--white);
+}
+.install{
+    color: var(--color-secondary);
+    margin-bottom: var(--size-zero-five);
+    font-weight: bold;
+}
+.install-method{
+    text-decoration: underline;
+}
+.install-copy {
+    color: var(--black);
+}
 
 .footer_nav {
-    padding: 1rem 0rem;
+    padding: var(--size-one) 0rem;
     align-items: center;
     background-color: var(--color-background1);
 }
 .footer_text {
-    padding-bottom: 0.5rem;
+    padding-bottom: var(--size-zero-five);
     color: var(--color-secondary);
 }
 
 .footer-links {
- gap: 2rem;
+ gap: var(--size-two);
 }
 
 .no-border {

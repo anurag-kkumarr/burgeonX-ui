@@ -1,44 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="/style/main.css">
     <link rel="stylesheet" href="/components/CSS/component.css">
     <title>BurgeonX-ui</title>
 </head>
+
 <body class="container">
     <div class="navigation">
         <header>
             <h1 class="head-top">BurgeonX-ui</h1>
         </header>
         <nav class="nav-top flex-row-reverse">
-            <button class="button_small">Github</button>
+            <a class="link-secondary" href="https://github.com/anurag-kkumarr/burgeonX-ui/">Github</a>
         </nav>
     </div>
-    
-    <main class="main_container flex-column">
-        <div class="flex pad-rem-half">
-            <h2 class="container_subtext">A neat, light & scalable UI-component Library where you can easily copy codes to get your web-app done..</h2>
+    <main class="main_container">
+        <section class="home_container">
+            <div class="container_subtext flex-column">
+                <h2 class="text-desc">A neat, light & scalable UI-component Library where you can easily copy codes to
+                    get your web-app done..</h2>
+                <div class="btn-display center">
+                    <a class="link-primary" href="#installation">Installation</a>
+                    <a class="link-primary" href="/components/HTML/component.html">Get Started</a>
+
+                </div>
+            </div>
+
             <img class="img-logo" src="/assets/BurgeonX-logos.jpeg" alt="ui-logo">
-        </div>
-        
-        <div class="center">
-        <a class="link-primary" href="/components/HTML/component.html" >Get Started</a>
-    </div>    
+        </section>
+
+        <section id="installation" class="install_container">
+            <div class="install-header">
+                <h1>Installation</h1>
+            </div>
+            <div class="install-flex">
+                <h2 class="install">Users can use these components through various ways</h2>
+                <h2 class="install-method">By importing CSS files</h2>
+                <h3 class="install install-copy">copy this link and paste it inside head tag of your file and you are ready to move ahead</h3>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-dark&wt=sharp&l=auto&width=892.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fburgeonx.netlify.app%252Fcomponents%252FCSS%252Fcomponent.css%2522%253E%250A%250A"
+                    style="width: 100%; height: 234px; border:0; transform: scale(1); overflow:hidden;" class="margin-bottom-one"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </section>
     </main>
     <footer class="footer_nav flex-column">
         <div class="footer_text"> <span>Developed by </span> <strong>Anurag with 💙</strong></div>
         <ul class="footer-links flex">
-            <li class="no-border"><a href="https://github.com/anurag-kkumarr"><i class="fab fa-github fa-2x icon-color"></i></a></li>
-            <li class="no-border"><a href="https://twitter.com/anuragcode" target="_blank"><i class = "fab fa-twitter fa-2x icon-color"></i></a></li>
-            <li class="no-border"><a href="https://www.linkedin.com/in/anuragkkumarr/" target="_blank"><i class="fab fa-linkedin-in fa-2x icon-color"></i></a></li>
+            <li class="no-border"><a href="https://github.com/anurag-kkumarr"><i
+                        class="fab fa-github fa-2x icon-color"></i></a></li>
+            <li class="no-border"><a href="https://twitter.com/anuragcode" target="_blank"><i
+                        class="fab fa-twitter fa-2x icon-color"></i></a></li>
+            <li class="no-border"><a href="https://www.linkedin.com/in/anuragkkumarr/" target="_blank"><i
+                        class="fab fa-linkedin-in fa-2x icon-color"></i></a></li>
         </ul>
     </footer>
 </body>
+
 </html>

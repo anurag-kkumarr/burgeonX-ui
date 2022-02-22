@@ -95,10 +95,10 @@
 }
 .rounded-square-box {
     border: 2px solid var(--color-background1);
-    padding: var(--size-one);
     border-radius: var(--size-one-five);
     background-color: var(--white);
     color: var(--color-primary);
+    text-align: center;
 }
 .flex-gap-one {
     display: flex;

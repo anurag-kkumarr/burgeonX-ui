@@ -66,7 +66,7 @@
     flex-grow: 1;
 }
 .component-title {
-    
+    font-size: var(--size-three);
     border-bottom: 1px solid black;
     margin-bottom: var(--size-one);
     

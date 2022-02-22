@@ -22,10 +22,12 @@
     max-width: 60px;
     padding: var(--size-zero-five);
     background-color: var(--color-background1);
+    cursor: pointer;
 }
 .link-btn {
     color: blue;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .fb-btn {
@@ -34,6 +36,7 @@
     background-color: #3b5998;
     color: var(--white);
     font-size: large;
+    cursor: pointer;
 }
 .twitter-btn {
     border: 1px solid black;
@@ -41,6 +44,7 @@
     background-color: #08e0a9;
     color: var(--white);
     font-size: large;
+    cursor: pointer;
 }
 .ig-btn {
     border: 1px solid black;
@@ -48,6 +52,7 @@
     background-color: #dd2a7b;
     color: var(--white);
     font-size: large;
+    cursor: pointer;
 }
 button>span {
     position: absolute;
