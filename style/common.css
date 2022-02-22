@@ -95,7 +95,6 @@
 }
 .rounded-square-box {
     border: 2px solid var(--color-background1);
-    padding: var(--size-zero-two);
     border-radius: var(--size-one-five);
     background-color: var(--white);
     color: var(--color-primary);
