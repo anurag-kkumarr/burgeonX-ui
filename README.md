@@ -1,6 +1,6 @@
 # [BurgeonX-UI](https://burgeonx.netlify.app/components)
 
-![logo](assets\BurgeonX.jpeg) 
+![logo](assets/BurgeonX.jpeg) 
 
 # About
 
