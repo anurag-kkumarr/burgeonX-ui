@@ -6,6 +6,7 @@
     /* Theme color */
     --color-primary: #105FD3;
     --color-secondary: #1072d3;
+    --color-light-skyblue: #298fb7;
 
     --color-background1: rgb(196, 191, 191);
     --color-background2: rgb(191, 196, 196);
@@ -181,6 +182,7 @@
     --size-zero-three: 0.3rem;
     --size-zero-four: 0.4rem;
     --size-zero-five: 0.5rem;
+    --size-zero-six: 0.6rem;
     --size-one-two: 1.2rem;
     --size-one-five: 1.5rem;
     --size-two-five: 2.5rem;

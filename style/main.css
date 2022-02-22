@@ -1,7 +1,7 @@
 @import "import.css";
 
 .navigation {
-    padding: 1rem 0rem 0rem 0rem;
+    padding: var(--size-one) 0rem 0rem 0rem;
     background-color: var(--color-background1);
 }
 @media screen and (max-width:700px) {
@@ -23,11 +23,11 @@
     color: var(--color-secondary);
     font-family: var(--font-lobster);
     z-index: 1;
-    padding: 1rem;
+    padding: var(--size-one);
     
 }
 .nav-top {
-    padding: 1rem;
+    padding: var(--size-one);
     position: absolute;
     top: 0;
     right: 0;
@@ -41,7 +41,7 @@
     width: 400px;
     height: 400px;
     line-height: 2;
-    padding: 1rem 0rem 0rem 1rem;
+    padding: var(--size-one) 0rem 0rem var(--size-one);
     box-sizing: border-box;
     flex-grow: 1;
     justify-content: space-around;
@@ -58,7 +58,7 @@
     max-height: 500px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;
+    padding: var(--size-one);
     flex-grow: 1;
     object-fit: cover;
 }
@@ -73,21 +73,21 @@
     margin-right: var(--size-zero-five);
     margin-top: var(--size-zero-five);
     width: 10rem;
-    font-size: 1.5rem;
+    font-size: var(--size-one-five);
     font-weight: 600;
-    border-radius: 0.4rem;
+    border-radius: var(--size-zero-four);
     cursor: pointer;
     text-align: center;
 }
 
 .link-secondary {
     background-color: var(--color-secondary);
-    color: #fff;
+    color: var(--white);
     padding: 0.75rem;
-    width: 6rem;
-    font-size: 1.2rem;
+    width: var(--size-six);
+    font-size: var(--size-one-two);
     font-weight: 600;
-    border-radius: 0.4rem;
+    border-radius: var(--size-zero-four);
     cursor: pointer;
 }
 
@@ -129,17 +129,17 @@
 }
 
 .footer_nav {
-    padding: 1rem 0rem;
+    padding: var(--size-one) 0rem;
     align-items: center;
     background-color: var(--color-background1);
 }
 .footer_text {
-    padding-bottom: 0.5rem;
+    padding-bottom: var(--size-zero-five);
     color: var(--color-secondary);
 }
 
 .footer-links {
- gap: 2rem;
+ gap: var(--size-two);
 }
 
 .no-border {

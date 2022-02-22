@@ -1,21 +1,21 @@
 .input-txt[type=text] {
     width: 60%;
     max-width: 400px;
-    border: 1px solid #298fb7;
+    border: 1px solid var(--color-light-skyblue);
     padding: var(--size-zero-five);
-    border-radius: 10px 10px 10px 10px;
+    border-radius: var(--size-zero-six);
     font-size: var(--size-one);
     outline: none;
 }
 .input-txt[type=text]:focus {
-    border: 3px solid #298fb7;
+    border: 3px solid var(--color-light-skyblue);
 }
 .input-error {
     width: 60%;
     max-width: 300px;
     border: 1px solid var(--red);
     padding: var(--size-one);
-    border-radius: 0px 0px 0px 10px;
+    border-radius: var(--size-zero-six);;
     font-size: var(--size-one);
     outline: none;
     color: var(--red);
@@ -29,7 +29,7 @@
     max-width: 450px;
     border: 1px solid var(--green);
     padding: var(--size-one);
-    border-radius: 0px 10px 10px 10px;
+    border-radius: var(--size-zero-six);
     font-size: var(--size-one);
     outline: none;
     color: var(--green);
