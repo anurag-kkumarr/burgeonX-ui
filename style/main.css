@@ -75,9 +75,7 @@
     border-radius: 0.4rem;
     cursor: pointer;
 }
-a.link-secondary1 {
-    color: #dae7fa;
-}
+
 .home_container {
     display: flex;
     padding: var(--size-one);
