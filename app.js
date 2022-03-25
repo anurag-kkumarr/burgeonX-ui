@@ -6,6 +6,25 @@ const dismissBtn = document.querySelector(".pos-dismiss");
 const dismissCard = document.querySelector("#dismiss");
 const showBtn = document.querySelector("#show-btn");
 
+
+const modalBtn = document.querySelector('#demo');
+const modalDiv = document.querySelector('#modal-box');
+const bodyTag = document.querySelector("body");
+
+modalBtn.addEventListener("click", ()=> { 
+    modalDiv.style.display="flex";
+    bodyTag.style.overflow = "hidden";
+    
+});
+
+window.addEventListener("click", event => {
+    if (event.target === modalDiv) {
+        modalDiv.style.display = "none";
+        bodyTag.style.overflow = 'auto';
+    } 
+});
+
+
 showBtn.style.display = 'none';
 const scrollToTop = () => {
    rootElement.scrollTo({
