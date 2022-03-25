@@ -14,6 +14,7 @@ const bodyTag = document.querySelector("body");
 modalBtn.addEventListener("click", ()=> { 
     modalDiv.style.display="flex";
     bodyTag.style.overflow = "hidden";
+    bodyTag.style.backgroundColor = `rgba(0, 0, 0, 0.459)`;
     
 });
 
@@ -21,6 +22,7 @@ window.addEventListener("click", event => {
     if (event.target === modalDiv) {
         modalDiv.style.display = "none";
         bodyTag.style.overflow = 'auto';
+        bodyTag.style.backgroundColor = "white";
     } 
 });
 
