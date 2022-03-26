@@ -1,3 +1,5 @@
+// javascript for card elements
+
 const floatBtn = document.querySelector(".float-btn");
 
 const rootElement = document.documentElement;
@@ -7,24 +9,7 @@ const dismissCard = document.querySelector("#dismiss");
 const showBtn = document.querySelector("#show-btn");
 
 
-const modalBtn = document.querySelector('#demo');
-const modalDiv = document.querySelector('#modal-box');
-const bodyTag = document.querySelector("body");
 
-modalBtn.addEventListener("click", ()=> { 
-    modalDiv.style.display="flex";
-    bodyTag.style.overflow = "hidden";
-    bodyTag.style.backgroundColor = `rgba(0, 0, 0, 0.459)`;
-    
-});
-
-window.addEventListener("click", event => {
-    if (event.target === modalDiv) {
-        modalDiv.style.display = "none";
-        bodyTag.style.overflow = 'auto';
-        bodyTag.style.backgroundColor = "white";
-    } 
-});
 
 
 showBtn.style.display = 'none';
@@ -47,3 +32,34 @@ const showCard = () => {
 floatBtn.addEventListener('click',scrollToTop);
 dismissBtn.addEventListener('click',hideCard);
 showBtn.addEventListener('click',showCard);
+
+
+// javascript for modal components
+
+const modalBtn = document.querySelector('#demo');
+const modalDiv = document.querySelector('#modal-box');
+const bodyTag = document.querySelector("body");
+const modalClose = document.querySelectorAll(".modal-close")
+
+modalBtn.addEventListener("click", ()=> { 
+    modalDiv.style.display="flex";
+    bodyTag.style.overflow = "hidden";
+    bodyTag.style.backgroundColor = `rgba(0, 0, 0, 0.459)`;
+    
+});
+
+window.addEventListener("click", event => {
+    if (event.target === modalDiv) {
+        modalDiv.style.display = "none";
+        bodyTag.style.overflow = 'auto';
+        bodyTag.style.backgroundColor = "white";
+    } 
+});
+
+modalClose.forEach((btn)=>{
+    btn.addEventListener('click', ()=>{
+        modalDiv.style.display = "none";
+        bodyTag.style.overflow = 'auto';
+        bodyTag.style.backgroundColor = "white";
+    })
+});

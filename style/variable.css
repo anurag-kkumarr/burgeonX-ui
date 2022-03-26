@@ -7,10 +7,12 @@
     --color-primary: #105FD3;
     --color-secondary: #1072d3;
     --color-light-skyblue: #298fb7;
+    --color-dark: #121212;
 
     --color-background1: rgb(196, 191, 191);
     --color-background2: rgb(191, 196, 196);
     --blueviolet1: rgb(49, 8, 58);
+
 
     --color-bg-primary: hsl(56, 96%, 67%);
     --color-bg-secondary: #d3d305;
@@ -186,6 +188,7 @@
     --size-one-two: 1.2rem;
     --size-one-five: 1.5rem;
     --size-two-five: 2.5rem;
+    --size-five-five: 5.5rem;
     /* Font-family */
     --font-lobster:'Lobster', cursive;
     --font-dosis: 'Dosis', sans-serif;
