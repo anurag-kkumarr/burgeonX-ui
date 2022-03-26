@@ -1,0 +1,75 @@
+.modal-btn {
+  border: 1px solid var(--black);
+  padding: var(--size-zero-five);
+  border-radius: 1px;
+  font-size: large;
+  font-weight: bold;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.basic-modal {
+  border: 1px solid var(--black);
+  background-color: var(--white);
+  width: 400px;
+  height: 200px;
+  padding: var(--size-two);
+  position: relative;
+}
+.dark-md {
+  background-color: var(--color-dark);
+  color: var(--white);
+}
+.modal-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.md-heading {
+  position: absolute;
+  top: var(--size-zero-five);
+  left: var(--size-zero-five);
+}
+.md-body {
+  position: absolute;
+  top: var(--size-five-five);
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.top-rt {
+  position: absolute;
+  top: var(--size-zero-five);
+  right: var(--size-one);
+}
+.btm-rt {
+  position: absolute;
+  bottom: var(--size-zero-five);
+  right: var(--size-zero-five);
+}
+.cross-btn {
+    cursor: pointer;
+}
+.demo-btn {
+  width: var(--size-four);
+  padding: var(--size-one);
+  color: var(--white);
+  font-size: var(--size-one);
+  font-weight: bold;
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--color-primary);
+}
+.btn-container {
+  width: 100%;
+  padding: var(--size-one);
+  border: 1px solid black;
+  display: flex;
+  margin-bottom: var(--size-two);
+}
