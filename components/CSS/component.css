@@ -68,12 +68,15 @@
 }
 .component-title {
     font-size: var(--size-three);
-    border-bottom: 1px solid black;
+    padding: var(--size-zero-five);
+    border-bottom: 4px solid var(--color-secondary);
     margin-bottom: var(--size-one);
+    color: var(--color-secondary);
     
 }
 .component-def {
     margin-bottom: var(--size-two);
+    color: var(--color-dark);
 }
 .code-container {
     width: 90%;
