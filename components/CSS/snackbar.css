@@ -51,7 +51,7 @@
     width: 50%;
     height: auto;
     min-height: 30px;
-    background-color: var(--color-dark);
+    background-color: var(--color-primary);
     color: var(--white);
 }
 .delete, .refresh, .save {
