@@ -42,6 +42,7 @@
                     <a href="#list" class=" link-primary line-space sidebar-items">List</a>
                     <a href="#navigation" class=" link-primary line-space sidebar-items">Navigation</a>
                     <a href="#modal" class=" link-primary line-space sidebar-items">Modal</a>
+                    <a href="#snackbar" class=" link-primary line-space sidebar-items">Snackbar</a>
                 </div>
             </div>
             <div class="main-container">
@@ -938,12 +939,12 @@
                             <p class="md-body"> This is a basic modal</p>
                             <div class="btm-rt">
                                 <button class="modal-btn col-primary">save</button>
-                                <button  class="modal-close modal-btn col-primary">close</button>
+                                <button class="modal-close modal-btn col-primary">close</button>
                             </div>
                         </div>
                     </div>
 
-                   
+
                     <div class="code-container margin-bottom-two">
                         <iframe
                             src="https://carbon.now.sh/embed?bg=rgba%2816%2C95%2C211%2C1%29&t=one-dark&wt=none&l=htmlmixed&width=707.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520id%253D%2522demo%2522%2520class%253D%2522demo-btn%2522%253Elive%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520id%2520%253D%2520%2522modal-box%2522%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520%2520class%253D%2522basic-modal%2520margin-bottom-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520top-rt%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522md-heading%2522%253EDialog%2520Box%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522md-body%2522%253E%2520This%2520is%2520a%2520basic%2520modal%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btm-rt%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal-btn%2520col-primary%2522%253Esave%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal-btn%2520col-primary%2522%253Eclose%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
@@ -952,6 +953,45 @@
                         </iframe>
                     </div>
 
+
+                </section>
+
+                <!-- Snackbar component begins -->
+
+                <section id="snackbar" class="margin-bottom-three">
+
+                    <h1 class="component-title">#Snackbar</h1>
+                    <h2 class="component-def">A Snackbar is used to provide brief feedback about certain operation. It
+                        is generally at bottom or sometimes on top of screen.</h2>
+
+                    <div class="snackbar-container">
+                        <div class="snackbar-wrapper">
+                            <a><i class="fa fa-trash  fa-2x" aria-hidden="true"></i></a>
+                            <a><i class="fa fa-refresh fa-2x" aria-hidden="true"></i></a>
+                            <div class="save-snackbar">save</div>
+                        </div>
+                        <div class="snackbar-notification">
+                            <div class="snackbar-items delete">
+                                <div>Item has been deleted</div>
+                            </div>
+                            <div class="snackbar-items refresh">
+                                <div>Content loading... <i class="fa fa-spinner fa-spin" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="snackbar-items save">
+                                <div>Item saved</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="margin-bottom-two">Copy below code to launch snackbar widgets </p>
+
+                    <div class="code-container margin-bottom-two">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2816%2C95%2C211%2C1%29&t=one-light&wt=none&l=htmlmixed&width=707.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522snackbar-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%253E%253Ci%2520class%253D%2522fa%2520fa-trash%2520%2520fa-2x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%253E%253Ci%2520class%253D%2522fa%2520fa-refresh%2520fa-2x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522save-snackbar%2522%253Esave%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-notification%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-items%2520delete%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253EItem%2520has%2520been%2520deleted%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-items%2520refresh%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253EContent%2520loading...%2520%253Ci%2520class%253D%2522fa%2520fa-spinner%2520fa-spin%2522%2520aria-hidden%253D%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2522true%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-items%2520save%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253EItem%2520saved%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                            style="width: 100%; height: auto; min-height: 524px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
 
                 </section>
 
