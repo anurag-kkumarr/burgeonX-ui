@@ -63,3 +63,30 @@ modalClose.forEach((btn)=>{
         bodyTag.style.backgroundColor = "white";
     })
 });
+
+//  snackbar js
+
+const deleteSnackbar = document.querySelector(".delete");
+const refreshSnackbar = document.querySelector(".refresh");
+const deleteIcon = document.querySelector(".fa-trash");
+const refreshIcon = document.querySelector(".fa-refresh");
+const saveSnackbar = document.querySelector(".save");
+const saveIcon = document.querySelector(".save-snackbar");
+
+deleteIcon.addEventListener('click', ()=> {
+    deleteSnackbar.style.display = 'flex';
+    refreshSnackbar.style.display = 'none';
+    saveSnackbar.style.display = 'none';
+})
+
+refreshIcon.addEventListener('click', ()=> {
+    deleteSnackbar.style.display = 'none';
+    refreshSnackbar.style.display = 'flex';
+    saveSnackbar.style.display = 'none';
+})
+
+saveIcon.addEventListener('click', ()=> {
+    deleteSnackbar.style.display = 'none';
+    refreshSnackbar.style.display = 'none';
+    saveSnackbar.style.display = 'flex';
+})
