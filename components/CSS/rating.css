@@ -1,0 +1,38 @@
+.rating-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    min-height: 200px;
+    border: 3px solid var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--size-two);
+    
+}
+
+.star-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    cursor: pointer;
+    font-size: var(--size-four);
+    justify-content: space-around;
+    text-align: center;
+}
+
+.star-wrapper label {
+    padding: var(--size-one);
+    cursor: pointer;
+}
+
+.star-wrapper :checked ~ label {
+    color: var(--orange);
+
+}
+.star-wrapper label:hover {
+    color: var(--yellow);
+}
+
+.star-wrapper>input {
+    display: none;
+}
