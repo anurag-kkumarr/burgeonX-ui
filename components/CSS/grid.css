@@ -1,0 +1,31 @@
+.grid2-col {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: var(--size-one);
+    margin-bottom: var(--size-two);
+}
+
+.grid-items {
+    display: flex;
+    width: 100%;
+    min-height: 200px;
+    max-width: 300px;
+    padding: var(--size-one);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: var(--color-primary);
+    background-color: #105ed377;
+    border: 2px solid var(--color-primary);
+    margin: 1rem;
+    font-size: var(--size-one-five);
+    font-weight: bold;
+}
+
+.grid3-col {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-auto-flow: row;
+    column-gap: var(--size-one);
+    margin-bottom: var(--size-two);
+}

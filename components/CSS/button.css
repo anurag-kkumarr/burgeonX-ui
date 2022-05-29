@@ -62,13 +62,14 @@ button>span {
 .float-rd {
     width: var(--size-three);
     height: var(--size-three);
-    background-color: green;
-    color: white;
+    background-color: var(--color-primary);
+    color: var(--white);
     font-size: var(--size-two);
     font-weight: bolder;
 }
 .float-btn {
     cursor: pointer;
+    position: relative;
 }
 .shift-right {
     position: absolute;
